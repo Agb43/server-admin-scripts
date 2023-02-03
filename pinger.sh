@@ -4,7 +4,7 @@
 SUM=0  
 while true; do
 CURRENTTIME=$(date | awk '{print $4}')
-ping -c 3 #YOUR IP ADRESS HERE 
+ping -c 3 #YOUR ROUTER IP ADRESS HERE 
 if [[ $? != 0 ]]; then
 
 while true; do 
