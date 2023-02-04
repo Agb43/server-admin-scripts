@@ -10,3 +10,5 @@ pingerv2.sh -- pings your router ip and creates a running log in a directory of 
 
 smartcronv2.sh -- checks health status of all disks in a zpool and prints results to a log. Should be used in combination with a seperate script that performs the inital smart test
 
+threshhold-checker.sh -- checks zpools to see if a threshhold of 80% has been reached. Then alerts you if they have. This also relies on a mail server being set up.
+
